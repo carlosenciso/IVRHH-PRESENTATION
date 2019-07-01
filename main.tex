@@ -1,0 +1,66 @@
+\documentclass[11pt]{beamer}
+
+%%%%%%%% tema e cor %%%%%%%%
+\mode<presentation> {
+\usetheme{Madrid}
+%\usecolortheme{albatross}
+}
+
+\input{config.tex}
+
+%%%%%%%% titulo e subtitulo %%%%%%%%
+\title[IVRRHH Exposición]{Does extreme precipitation scaling depend on emissions scenario ?} 
+
+%%%%%%%% nome dos autores %%%%%%%%
+\author[Carlos, E. O.]{
+Carlos Enciso Ojeda} 
+
+\begin{document}
+\input{files/pre-slides.tex}
+
+%%%%%%%% slides %%%%%%%%
+\section{Introducción} 
+\input{files/introducao.tex}
+
+\section{Justificación}
+\input{files/justificativa.tex}
+
+\section{Objetivos}
+\input{files/objetivos.tex}
+
+\section{Fundamento Teórico}
+\input{files/fundamentacao.tex}
+
+\section{Metodología}
+\input{files/metodologia.tex}
+
+\section{Resultados}
+\input{files/resultados.tex}
+
+\section{Conclusión}
+\input{files/conclusao.tex}
+
+%%%%%%%% agradecimentos %%%%%%%%
+\begin{frame}{Agradecimentos}
+    \large{Agradeço a fulano, ciclano e beltrano que apoiaram o desenvolvimento dessa pesquisa.}
+\end{frame}
+%------------------------------------------------
+
+
+%------------------------------------------------
+%------------------------------------------------
+%%%%%%%% referencias %%%%%%%%
+\nocite{*}
+\begin{frame}[allowframebreaks]{Referências}
+\bibliographystyle{unsrt}
+\bibliography{ref.bib}
+\end{frame}
+
+
+%%%%%%%% repete primeiro slide %%%%%%%%
+\begin{frame}
+\titlepage 
+\end{frame}
+
+
+\end{document}
